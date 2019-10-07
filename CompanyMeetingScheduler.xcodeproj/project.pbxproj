@@ -14,6 +14,28 @@
 		8574F84422D40C9200CBE213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8574F84222D40C9200CBE213 /* LaunchScreen.storyboard */; };
 		8574F84F22D40C9200CBE213 /* CompanyMeetingSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F84E22D40C9200CBE213 /* CompanyMeetingSchedulerTests.swift */; };
 		8574F85A22D40C9300CBE213 /* CompanyMeetingSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F85922D40C9300CBE213 /* CompanyMeetingSchedulerUITests.swift */; };
+		8574F87722D40CCF00CBE213 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F86922D40CCE00CBE213 /* HTTPTask.swift */; };
+		8574F87822D40CCF00CBE213 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F86A22D40CCE00CBE213 /* Reachability.swift */; };
+		8574F87922D40CCF00CBE213 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F86B22D40CCE00CBE213 /* HTTPMethod.swift */; };
+		8574F87A22D40CCF00CBE213 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F86C22D40CCE00CBE213 /* Router.swift */; };
+		8574F87B22D40CCF00CBE213 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F86D22D40CCE00CBE213 /* NetworkLogger.swift */; };
+		8574F87C22D40CCF00CBE213 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F86E22D40CCE00CBE213 /* EndPointType.swift */; };
+		8574F87D22D40CCF00CBE213 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F87022D40CCE00CBE213 /* EndPoint.swift */; };
+		8574F87E22D40CCF00CBE213 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F87222D40CCF00CBE213 /* ParameterEncoding.swift */; };
+		8574F87F22D40CCF00CBE213 /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F87322D40CCF00CBE213 /* URLParameterEncoding.swift */; };
+		8574F88022D40CCF00CBE213 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F87422D40CCF00CBE213 /* JSONParameterEncoder.swift */; };
+		8574F88122D40CCF00CBE213 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F87622D40CCF00CBE213 /* NetworkManager.swift */; };
+		8574F88822D40E4100CBE213 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F88722D40E4100CBE213 /* Meeting.swift */; };
+		8574F88B22D414C500CBE213 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F88A22D414C500CBE213 /* UITableViewCell.swift */; };
+		8574F88D22D4150200CBE213 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F88C22D4150200CBE213 /* UIViewController.swift */; };
+		8574F88F22D4152A00CBE213 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F88E22D4152A00CBE213 /* UIColor.swift */; };
+		8574F89122D4153E00CBE213 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F89022D4153E00CBE213 /* UILabel.swift */; };
+		8574F89322D4160F00CBE213 /* MeetingPortrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F89222D4160F00CBE213 /* MeetingPortrait.swift */; };
+		8574F89522D4195200CBE213 /* MeetingLandscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F89422D4195200CBE213 /* MeetingLandscape.swift */; };
+		8574F89722D41A8900CBE213 /* MeetingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F89622D41A8900CBE213 /* MeetingDataSource.swift */; };
+		8574F89A22D41AE300CBE213 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F89922D41AE300CBE213 /* Utility.swift */; };
+		8574F89C22D421C800CBE213 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F89B22D421C800CBE213 /* Date.swift */; };
+		8574F89E22D4262E00CBE213 /* MeetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574F89D22D4262E00CBE213 /* MeetingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +69,28 @@
 		8574F85522D40C9300CBE213 /* CompanyMeetingSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompanyMeetingSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8574F85922D40C9300CBE213 /* CompanyMeetingSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyMeetingSchedulerUITests.swift; sourceTree = "<group>"; };
 		8574F85B22D40C9300CBE213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8574F86922D40CCE00CBE213 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		8574F86A22D40CCE00CBE213 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		8574F86B22D40CCE00CBE213 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		8574F86C22D40CCE00CBE213 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8574F86D22D40CCE00CBE213 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		8574F86E22D40CCE00CBE213 /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		8574F87022D40CCE00CBE213 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		8574F87222D40CCF00CBE213 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		8574F87322D40CCF00CBE213 /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		8574F87422D40CCF00CBE213 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		8574F87622D40CCF00CBE213 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8574F88722D40E4100CBE213 /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		8574F88A22D414C500CBE213 /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		8574F88C22D4150200CBE213 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		8574F88E22D4152A00CBE213 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8574F89022D4153E00CBE213 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		8574F89222D4160F00CBE213 /* MeetingPortrait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingPortrait.swift; sourceTree = "<group>"; };
+		8574F89422D4195200CBE213 /* MeetingLandscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingLandscape.swift; sourceTree = "<group>"; };
+		8574F89622D41A8900CBE213 /* MeetingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingDataSource.swift; sourceTree = "<group>"; };
+		8574F89922D41AE300CBE213 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		8574F89B22D421C800CBE213 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		8574F89D22D4262E00CBE213 /* MeetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +141,11 @@
 		8574F83822D40C9000CBE213 /* CompanyMeetingScheduler */ = {
 			isa = PBXGroup;
 			children = (
+				8574F89822D41ACE00CBE213 /* Utility */,
+				8574F88922D414AE00CBE213 /* Extensions */,
+				8574F88222D40E0E00CBE213 /* Meeting */,
+				8574F86722D40C9E00CBE213 /* Networking */,
 				8574F83922D40C9000CBE213 /* AppDelegate.swift */,
-				8574F83B22D40C9000CBE213 /* ViewController.swift */,
 				8574F83D22D40C9000CBE213 /* Main.storyboard */,
 				8574F84022D40C9200CBE213 /* Assets.xcassets */,
 				8574F84222D40C9200CBE213 /* LaunchScreen.storyboard */,
@@ -123,6 +170,113 @@
 				8574F85B22D40C9300CBE213 /* Info.plist */,
 			);
 			path = CompanyMeetingSchedulerUITests;
+			sourceTree = "<group>";
+		};
+		8574F86722D40C9E00CBE213 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8574F87122D40CCF00CBE213 /* Encoding */,
+				8574F86F22D40CCE00CBE213 /* EndPoint */,
+				8574F87522D40CCF00CBE213 /* Manager */,
+				8574F86822D40CCE00CBE213 /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8574F86822D40CCE00CBE213 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8574F86922D40CCE00CBE213 /* HTTPTask.swift */,
+				8574F86A22D40CCE00CBE213 /* Reachability.swift */,
+				8574F86B22D40CCE00CBE213 /* HTTPMethod.swift */,
+				8574F86C22D40CCE00CBE213 /* Router.swift */,
+				8574F86D22D40CCE00CBE213 /* NetworkLogger.swift */,
+				8574F86E22D40CCE00CBE213 /* EndPointType.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8574F86F22D40CCE00CBE213 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				8574F87022D40CCE00CBE213 /* EndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		8574F87122D40CCF00CBE213 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				8574F87222D40CCF00CBE213 /* ParameterEncoding.swift */,
+				8574F87322D40CCF00CBE213 /* URLParameterEncoding.swift */,
+				8574F87422D40CCF00CBE213 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		8574F87522D40CCF00CBE213 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8574F87622D40CCF00CBE213 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8574F88222D40E0E00CBE213 /* Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				8574F88522D40E2100CBE213 /* ViewModel */,
+				8574F88422D40E1C00CBE213 /* View */,
+				8574F88322D40E1600CBE213 /* Model */,
+			);
+			path = Meeting;
+			sourceTree = "<group>";
+		};
+		8574F88322D40E1600CBE213 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8574F88722D40E4100CBE213 /* Meeting.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8574F88422D40E1C00CBE213 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8574F83B22D40C9000CBE213 /* ViewController.swift */,
+				8574F89222D4160F00CBE213 /* MeetingPortrait.swift */,
+				8574F89422D4195200CBE213 /* MeetingLandscape.swift */,
+				8574F89622D41A8900CBE213 /* MeetingDataSource.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8574F88522D40E2100CBE213 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8574F89D22D4262E00CBE213 /* MeetingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8574F88922D414AE00CBE213 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8574F88A22D414C500CBE213 /* UITableViewCell.swift */,
+				8574F88C22D4150200CBE213 /* UIViewController.swift */,
+				8574F88E22D4152A00CBE213 /* UIColor.swift */,
+				8574F89022D4153E00CBE213 /* UILabel.swift */,
+				8574F89B22D421C800CBE213 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8574F89822D41ACE00CBE213 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8574F89922D41AE300CBE213 /* Utility.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +410,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8574F89C22D421C800CBE213 /* Date.swift in Sources */,
+				8574F88B22D414C500CBE213 /* UITableViewCell.swift in Sources */,
+				8574F89722D41A8900CBE213 /* MeetingDataSource.swift in Sources */,
+				8574F87C22D40CCF00CBE213 /* EndPointType.swift in Sources */,
+				8574F87B22D40CCF00CBE213 /* NetworkLogger.swift in Sources */,
+				8574F87E22D40CCF00CBE213 /* ParameterEncoding.swift in Sources */,
+				8574F89122D4153E00CBE213 /* UILabel.swift in Sources */,
+				8574F88122D40CCF00CBE213 /* NetworkManager.swift in Sources */,
+				8574F87722D40CCF00CBE213 /* HTTPTask.swift in Sources */,
+				8574F88F22D4152A00CBE213 /* UIColor.swift in Sources */,
+				8574F87D22D40CCF00CBE213 /* EndPoint.swift in Sources */,
 				8574F83C22D40C9000CBE213 /* ViewController.swift in Sources */,
+				8574F88822D40E4100CBE213 /* Meeting.swift in Sources */,
+				8574F87822D40CCF00CBE213 /* Reachability.swift in Sources */,
+				8574F89E22D4262E00CBE213 /* MeetingViewModel.swift in Sources */,
+				8574F87F22D40CCF00CBE213 /* URLParameterEncoding.swift in Sources */,
+				8574F89A22D41AE300CBE213 /* Utility.swift in Sources */,
+				8574F88022D40CCF00CBE213 /* JSONParameterEncoder.swift in Sources */,
+				8574F87922D40CCF00CBE213 /* HTTPMethod.swift in Sources */,
+				8574F87A22D40CCF00CBE213 /* Router.swift in Sources */,
+				8574F88D22D4150200CBE213 /* UIViewController.swift in Sources */,
+				8574F89522D4195200CBE213 /* MeetingLandscape.swift in Sources */,
 				8574F83A22D40C9000CBE213 /* AppDelegate.swift in Sources */,
+				8574F89322D4160F00CBE213 /* MeetingPortrait.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
